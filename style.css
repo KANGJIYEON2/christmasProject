@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: "HSBombaram21-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSBombaram21-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --first-color: rgb(16, 102, 16);
+  --second-color: rgb(148, 36, 36);
+  --font-style: "HSBombaram21-Regular";
+  --font-color: rgb(250, 247, 247);
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--first-color);
+  padding: 8px 12px;
+}
+.nav__logo span {
+  font-family: "Beau Rivage", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Sacramento", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Song Myung", serif;
+  font-family: "Whisper", cursive;
+}
+
+.nav__logo {
+  font-size: 2rem;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav__list li {
+  font-family: var(--font-style);
+  padding: 8px 50px;
+}
+
+.nav__close {
+  color: var(--font-color);
+}
