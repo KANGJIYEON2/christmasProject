@@ -6,7 +6,9 @@ const shopCloseBtn = document.getElementById("shop-close-btn");
 searchBtn.addEventListener("click", getShopList);
 function getShopList() {
   let searchInputTxt = document.getElementById("search-input").value.trim();
-  fetch(`http://127.0.0.1:3000/search/shop?query=${searchInputTxt}`)
+  fetch(
+    `https://happyhappychristmas.netlify.app/search/shop?query=${searchInputTxt}`
+  )
     .then((response) => response.json())
     .then((data) => {
       let html = "";
