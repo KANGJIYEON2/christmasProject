@@ -32,6 +32,6 @@ app.get("/search/shop", function (req, res) {
 });
 app.listen(3000, function () {
   console.log(
-    "http://127.0.0.1:3000/search/shop?query=검색어 app listening on port 3000!"
+    "https://happyhappychristmas.netlify.app/search/shop?query=검색어 app listening on port 3000!"
   );
 });
